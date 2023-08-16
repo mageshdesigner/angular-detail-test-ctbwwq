@@ -1,0 +1,41 @@
+.mat-mdc-table-sticky {
+    background: #e9e9e9;
+    opacity: 1;
+}
+
+.example-container {
+    height: 400px;
+    width: 550px;
+    overflow: auto;
+  }
+  
+  table {
+    width: 800px;
+  }
+  
+  td.mat-column-star {
+    width: 20px;
+    padding-right: 8px;
+  }
+  
+  .mat-table-sticky:last-child {
+    border-left: 1px solid #e0e0e0;
+  }
+  
+  /*
+  .mat-column-name {
+    width: 110px; 
+  }
+  .mat-column-position {
+    width: 80px;
+    left: 110px !important;
+  }
+  */
+  .mat-cell, .mat-header-cell {
+    padding-left:8px;
+    padding-right:8px;
+  }
+  
+  .mat-column-position {
+    border-right: 1px solid #e0e0e0;
+  }
